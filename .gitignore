@@ -1,1 +1,26 @@
-node_modules
+# Dependencies
+node_modules/
+
+# Hardhat
+artifacts/
+cache/
+typechain-types/
+
+# Python
+__pycache__/
+*.pyc
+edge-agent/.quarantine/
+venv/
+.env
+
+# Generated configs (auto-created by deploy.js)
+edge-agent/config.json
+frontend/deployment.json
+
+# Editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
